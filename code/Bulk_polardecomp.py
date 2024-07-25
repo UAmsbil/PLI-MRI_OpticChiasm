@@ -3,11 +3,10 @@
     # This code performs Mueller Matrix decompositiion using Lu-Chipman decomposition technique on files named for wavelengths in each image (e.g. "405", "442", etc.) 
     # for multiple images within one file
     # Outputs the "polardecomp" folder within each image file containing all Mueller matrix metrics
-# Authors: Justina Bonaventura, Rhea Carlson
+# Authors: Justina Bonaventura, Travis W Sawyer, Rhea Carlson
 # Date: 10/1/2021
 ##########################################################################
 import sys
-#!{sys.executable} -m pip install pySCATMECH
 import os
 import glob
 import numpy as np
