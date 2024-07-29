@@ -9,6 +9,7 @@ This code is run in the following order:
      * Outputs the registered MRI images.
     
 ## Data Analysis 
+This code is run in any order for generating histograms and pixewise correlation:
   * MRI_to_hist.py
      * Outputs histograms of MRI metrics, FA and PA, from a 3D ROI.
   * MRI_DT_to_hist.py
