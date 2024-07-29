@@ -2,7 +2,7 @@
 This code is run in the following order:
   1. Bulk_polardecomp.py
      * This performs Lu-chipman decoposition of the Mueller matrix
-     * Outputs the polardecomp file found included with the PLI data which PLI_functions.py references in each document for acessing PLI data.
+     * Outputs the polardecomp file found included with the PLI data which PLI_functions.py references in each document for accessing PLI data.
   2. registration_v3.mlx
      * This registers the middle slice from each MRI image to the corresponding PLI image for all three OC specimens for thin and thick tissue.
      * This step is necessary to perform pixelwise correlation.
