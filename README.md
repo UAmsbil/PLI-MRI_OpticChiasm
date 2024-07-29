@@ -1,4 +1,4 @@
-# OC_PLI-dMRI
+# About
 This repository includes information contributing to a multimodal backscattering Mueller matrix polarized light imaging (PLI) and diffusion MRI (dMRI) analysis within the ferret optic chiasm (OC) nerve structure. 
 
 # Contents
