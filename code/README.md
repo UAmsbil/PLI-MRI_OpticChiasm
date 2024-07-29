@@ -1,4 +1,4 @@
-## Data Processing Code
+## Data Processing 
 This code is run in the following order:
   1. Bulk_polardecomp.py
      * This performs Lu-chipman decoposition of the Mueller matrix
@@ -8,11 +8,12 @@ This code is run in the following order:
      * This step is necessary to perform pixelwise correlation.
      * Outputs the registered MRI images.
     
-## Data Analysis Code
-This code is run in any order:
-  * masks_to_hist.py
-     * Outputs histograms of MRI metrics from a 3D ROI.
-  * histogram_across_samples.py
+## Data Analysis 
+  * MRI_to_hist.py
+     * Outputs histograms of MRI metrics, FA and PA, from a 3D ROI.
+  * MRI_DT_to_hist.py
+     * Outputs histograms of MRI metric, diffusion tensor, from a 3D ROI.
+  * PLI_hist_across_samples.py
      * Outputs  histograms of PLI metrics from ROIs within the crossing and coherent regions of each OC.
      * Also outputs polarplots for angular PLI data.
   * pixelwise_corr_across_samples.py
