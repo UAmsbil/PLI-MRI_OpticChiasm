@@ -16,6 +16,7 @@ This code is run in any order for generating histograms and pixewise correlation
      * Outputs histograms of MRI metric, diffusion tensor, from a 3D ROI.
   * PLI_hist_across_samples.py
      * Outputs  histograms of PLI metrics from ROIs within the crossing and coherent regions of each OC.
+     * Calculates variance within each scalar PLI metric.
      * Also outputs polarplots for angular PLI data.
   * pixelwise_corr_across_samples.py
      * This performs pixelwise Pearson correlation of dMRI and PLI data across all three specimens.
