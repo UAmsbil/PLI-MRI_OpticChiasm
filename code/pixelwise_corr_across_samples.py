@@ -17,9 +17,9 @@ from PLI_functions import *
 
 ########################### Set Filepaths ###############################
 
-MAINDIR='/xdisk/hutchinsone/rheacarlson/Workspace/PLI_hist/DATA'
-PLIDir = os.path.join(MAINDIR, 'data', 'PLI')
-MaskDir= os.path.join(PLIDir, 'masks')
+MAINDIR='/Users/DataDir'
+PLIDir = '/Users/DataDir/PLIDir' #path to file containing OC images
+MaskDir= '/Users/DataDir/PLIDir/masks' #path to file containing PLI masks
 
 ######################### Select what to run ##########################
 #Run thin (0) or thick (1) slices
