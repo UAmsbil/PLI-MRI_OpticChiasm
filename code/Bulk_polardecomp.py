@@ -7,7 +7,6 @@
 # Date: 10/1/2021
 ##########################################################################
 import sys
-#!{sys.executable} -m pip install pySCATMECH
 import os
 import glob
 import numpy as np
@@ -27,7 +26,7 @@ time1 = time.time()
 ############################## Set Options ##############################
 
 # This is the filepath that contains multiple PLI images
-dataDir = r'C:\Users\rhea8\Desktop\20231115'
+dataDir = '/Users/DataDir/PLI/20231115'
 
 ##########################################################################
 
