@@ -13,10 +13,10 @@ import matplotlib.pyplot as plt
 from natsort import natsorted
 import SimpleITK as sitk
 
-# general file path ('*' for file name that are variable across samples)
-DTimageDir='/xdisk/hutchinsone/rheacarlson/Data/MRI/Proc/FT_optic_chiasm_final/blip_up_proc/*/eigen/DTvector.nii'
-maskDir_co = '/xdisk/hutchinsone/rheacarlson/Data/MRI/Proc/FT_optic_chiasm_final/blip_up_proc/*/mask_coherent*.nii'
-maskDir_cr = '/xdisk/hutchinsone/rheacarlson/Data/MRI/Proc/FT_optic_chiasm_final/blip_up_proc/*/mask_crossing*.nii'
+# general file path ('*' for file name that are variable across samples, F001, F002, F003)
+DTimageDir='/Users/DataDir/MRI/*/DTvector.nii'
+maskDir_co = '/Users/DataDir/MRI/*/mask_coherent*.nii'
+maskDir_cr = '/Users/DataDir/MRI/*/mask_crossing*.nii'
 
 resultsDir='/xdisk/hutchinsone/rheacarlson/Workspace/PLI_hist/MRI/DT'
 
