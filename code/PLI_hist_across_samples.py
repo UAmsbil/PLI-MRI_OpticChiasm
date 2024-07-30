@@ -15,7 +15,7 @@ import pandas as pd
 from PLI_functions import *
 
 ########################### Set Filepaths #############################
-MAINDIR='/xdisk/hutchinsone/rheacarlson/Workspace/PLI_hist/DATA'
+MAINDIR='/Users/DataDir/PLI'
 PLIDir = os.path.join(MAINDIR, 'data', 'PLI')
 MaskDir= os.path.join(PLIDir, 'masks')
 
