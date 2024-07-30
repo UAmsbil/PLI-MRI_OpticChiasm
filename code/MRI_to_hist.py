@@ -13,14 +13,14 @@ import matplotlib.pyplot as plt
 from natsort import natsorted
 import SimpleITK as sitk
 
-resultsDir = '/xdisk/hutchinsone/rheacarlson/Workspace/PLI_hist/MRI'
+resultsDir = '/Users/DataDir/MRI/results'
 
 # get filepaths for each FA,PA image for each sample
 # general file path ('*' for file name that are variable across samples)
-FAimageDir = '/xdisk/hutchinsone/rheacarlson/Data/MRI/Proc/FT_optic_chiasm_final/*/blip_up_DMC_L0_DT_FA.nii'
-PAimageDir = '/xdisk/hutchinsone/rheacarlson/Data/MRI/Proc/FT_optic_chiasm_final/*/blip_up_DMC_mapmri_PA.nii'
-maskDir_co = '/xdisk/hutchinsone/rheacarlson/Data/MRI/Proc/FT_optic_chiasm_final/*/mask_coherent*.nii'
-maskDir_cr = '/xdisk/hutchinsone/rheacarlson/Data/MRI/Proc/FT_optic_chiasm_final/*/mask_crossing*.nii'
+FAimageDir = '/Users/DataDir/MRI/*/blip_up_DMC_L0_DT_FA.nii'
+PAimageDir = '/Users/DataDir/MRI/*/blip_up_DMC_mapmri_PA.nii'
+maskDir_co = '/Users/DataDir/MRI/*/mask_coherent*.nii'
+maskDir_cr = '/Users/DataDir/MRI/*/mask_crossing*.nii'
 
 ##########################################################################
 
