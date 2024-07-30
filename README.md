@@ -3,7 +3,9 @@ This repository contains all relevant code, links to the data used, masks, and e
 
 All PLI and MRI data can be accessed through the following DOI: #XXXXXXX
 
-To process the PLI data, Lu-Chipman Mueller matrix decomposition was performed using the code linked [here](https://github.com/UAmsbil/PLI-MRI_OpticChiasm/blob/main/code/Bulk_polardecomp.py). PLI and MRI images were then registered via landmark registration using the code linked [here](https://github.com/UAmsbil/PLI-MRI_OpticChiasm/blob/main/code/registration_v3.mlx). Region of interest (ROI) analysis was performed based on masks located [here](https://github.com/rcarl0/OC_PLI-dMRI/tree/main/data/PLI/masks). ROI and pixelwise analysis was performed using code linked [here](https://github.com/UAmsbil/PLI-MRI_OpticChiasm/blob/main/code/histogram_across_samples.py) and [here](https://github.com/UAmsbil/PLI-MRI_OpticChiasm/blob/main/code/PLI_hist_across_samples.py).
+To process the PLI data, Lu-Chipman Mueller matrix decomposition was performed using the code linked [here](https://github.com/UAmsbil/PLI-MRI_OpticChiasm/blob/main/code/Bulk_polardecomp.py). PLI and MRI images were then registered via landmark registration using the code linked [here](https://github.com/UAmsbil/PLI-MRI_OpticChiasm/blob/main/code/registration_v3.mlx). Analysis was performed based on masks located [here](https://github.com/UAmsbil/PLI-MRI_OpticChiasm/tree/main/data/PLI/masks). ROI and pixelwise analysis was performed using code linked [here](https://github.com/UAmsbil/PLI-MRI_OpticChiasm/blob/main/code/histogram_across_samples.py) and [here](https://github.com/UAmsbil/PLI-MRI_OpticChiasm/blob/main/code/PLI_hist_across_samples.py).
+
+All results from the code are [here](https://github.com/UAmsbil/PLI-MRI_OpticChiasm/tree/main/results).
 
 # References
 Lu-Chipman Mueller matrix decompsition:
