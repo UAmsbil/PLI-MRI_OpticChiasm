@@ -11,3 +11,6 @@ All results from the code are [here](https://github.com/UAmsbil/PLI-MRI_OpticChi
 Lu-Chipman Mueller matrix decompsition:
 1. S.-Y. Lu and R. A. Chipman, “Interpretation of Mueller matrices based on polar decomposition,” J. Opt. Soc. Am. A 13(5), 1106 (1996) [doi:10.1364/JOSAA.13.001106].
 2. Python library [pySCATMECH : A Python Interface to the SCATMECH Library](https://pages.nist.gov/pySCATMECH/)
+
+Whole brain ferret MRI:
+1. E. B. Hutchinson et al., “Population based MRI and DTI templates of the adult ferret brain and tools for voxelwise analysis,” NeuroImage 152, 575–589 (2017) [doi:10.1016/j.neuroimage.2017.03.009].
