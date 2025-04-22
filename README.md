@@ -1,5 +1,5 @@
 # Contents
-This repository contains all relevant code, links to the data used, masks, and expected results output from the code. PLI and dMRI data was aquired from three different OC specimens. For PLI, both thick (blockface) and thin (sectioned) OC specimens were imaged.
+This repository contains all relevant code, links to the data used, masks, and expected results output from the code associated with the Journal of Medical Imaging publication ["Backscattering Mueller matrix polarimetry estimates microscale anisotropy and orientation in complex brain tissue structure"](https://www.spiedigitallibrary.org/journals/journal-of-medical-imaging/volume-12/issue-01/016001/Backscattering-Mueller-matrix-polarimetry-estimates-microscale-anisotropy-and-orientation-in/10.1117/1.JMI.12.1.016001.full) by Carlson et al. PLI and dMRI data was aquired from three different OC specimens. For PLI, both thick (blockface) and thin (sectioned) OC specimens were imaged.
 
 A representative set of MRI and PLI data is temporarily available through Open Science Framework [here](https://osf.io/9pf3v/?view_only=8b66c6dc07a9496fa02caaae34919231). 
 
